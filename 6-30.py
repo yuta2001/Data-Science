@@ -34,3 +34,11 @@ print("""
 """ )
 
 print("my name is {0} {1}" .format("yuta","matsui"))
+
+a = [1,2,3,4,5]
+b = [6,7,8,9]
+c = [a,b]
+print(c,type(c))
+
+c = [a,"yuta"]
+print(c,type(c))
